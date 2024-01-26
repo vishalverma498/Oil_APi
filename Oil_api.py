@@ -69,7 +69,7 @@ def get_graph_data():
 
 
 @app.route('/Fuel_Oil_Tank', methods=['GET'])
-def get_graph_data():
+def Fuel_Oil_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -89,7 +89,7 @@ def get_graph_data():
 
 
 @app.route('/Drill_Water_Tank', methods=['GET'])
-def get_graph_data():
+def Drill_Water_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -109,7 +109,7 @@ def get_graph_data():
 
 
 @app.route('/Dirty_Oil_Tank', methods=['GET'])
-def get_graph_data():
+def Dirty_Oil_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -129,7 +129,7 @@ def get_graph_data():
 
 
 @app.route('/Potable_Water_Tank', methods=['GET'])
-def get_graph_data():
+def Potable_Water_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -149,7 +149,7 @@ def get_graph_data():
 
 
 @app.route('/Fuel_Oil_Day_Tank', methods=['GET'])
-def get_graph_data():
+def Fuel_Oil_Day_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -169,7 +169,7 @@ def get_graph_data():
 
 
 @app.route('/Edge_Fuel_Oil_Tank', methods=['GET'])
-def get_graph_data():
+def Edge_Fuel_Oil_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -189,7 +189,7 @@ def get_graph_data():
 
 
 @app.route('/Non_Contaminated_Drain_Tank', methods=['GET'])
-def get_graph_data():
+def Non_Contaminated_Drain_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -209,7 +209,7 @@ def get_graph_data():
 
 
 @app.route('/Billre_Holding_Tank', methods=['GET'])
-def get_graph_data():
+def Billre_Holding_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -229,7 +229,7 @@ def get_graph_data():
 
 
 @app.route('/Contaminated_Drain_Tank', methods=['GET'])
-def get_graph_data():
+def Contaminated_Drain_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -248,7 +248,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/Raw_Sewage_Tank', methods=['GET'])
-def get_graph_data():
+def Raw_Sewage_Tank():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -269,7 +269,7 @@ def get_graph_data():
 ################### Valve API ############################## 
 
 @app.route('/Dump_Valve', methods=['GET'])
-def get_graph_data():
+def Dump_Valve():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -288,7 +288,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/Fill_Valve', methods=['GET'])
-def get_graph_data():
+def Fill_Valve():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -307,7 +307,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/EQ_Solenoid_Valve', methods=['GET'])
-def get_graph_data():
+def EQ_Solenoid_Valve():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -326,7 +326,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/FODT-1_Centrifuge-1_Outlet_Quick_Closing_Valve', methods=['GET'])
-def get_graph_data():
+def get_graph_data1():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -345,7 +345,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/FODT-1_Service_Pump_Outlet_Quick_Closing_Valve', methods=['GET'])
-def get_graph_data():
+def get_graph_data2():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
@@ -364,7 +364,7 @@ def get_graph_data():
     return jsonify(data)
 
 @app.route('/FODT-1_Main_ENG_Outlet_Quick_Closing_Valve', methods=['GET'])
-def get_graph_data():
+def get_graph_data3():
     global counter
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     data = {
